@@ -1,0 +1,118 @@
+<div>
+  <el-container>
+    <el-header>
+      <div class="headermain">
+        <div class="xiaotu">
+          <img src="../../assets/toubu.png" alt="" class="tubu" />
+          <div class="fudong">
+            <div class="yuzhou">
+              <img src="../../assets/图层3.png" alt="" class="yu" />
+              <span>余周周同学欢迎您！</span>
+            </div>
+
+            <span class="amer">美国</span>
+          </div>
+        </div>
+        <img src="../../assets/header.png" alt="" class="maintu" />
+      </div>
+    </el-header>
+    <!-- 左边的侧栏 -->
+    <el-container class="bigone">
+      <el-aside width="230px">
+        <div>
+          <img src="../../assets/avatarbgc.png" alt="" />
+        </div>
+        <img src="../../assets/avatar.png" alt="" class="touxiang" />
+        <span class="adm">Adminnnn</span>
+        <span class="banji">2021级04班</span>
+
+        <!-- 导航栏 -->
+
+        <div class="leftone">
+          <el-menu
+            default-active="2"
+            class="el-menu-vertical-demo"
+            @open="handleOpen"
+            @close="handleClose"
+          >
+            <el-menu-item index="1">
+              <i class="el-icon-menu"></i>
+              <span slot="title">用户中心</span>
+            </el-menu-item>
+
+            <el-menu-item index="2">
+              <i class="el-icon-menu"></i>
+              <span slot="title">测评中心</span>
+            </el-menu-item>
+
+            <el-menu-item index="3">
+              <i class="el-icon-setting"></i>
+              <span slot="title">课程中心</span>
+            </el-menu-item>
+            <el-menu-item index="4">
+              <i class="el-icon-menu"></i>
+              <span slot="title">任务中心</span>
+            </el-menu-item>
+
+            <el-menu-item index="5">
+              <i class="el-icon-menu"></i>
+              <span slot="title">成长档案</span>
+            </el-menu-item>
+
+            <el-menu-item index="6">
+              <i class="el-icon-setting"></i>
+              <span slot="title">全球数据库</span>
+            </el-menu-item>
+          </el-menu>
+        </div>
+      </el-aside>
+      <el-main>
+        <div class="one">
+          <!-- 右上的导航 -->
+          <template>
+            <el-tabs v-model="activeName" @tab-click="handleClick">
+              <el-tab-pane label="VIA优势测试" name="first"
+                >VIA优势测试</el-tab-pane
+              >
+              <el-tab-pane label="ONet职业测评" name="second">
+                <el-tabs v-model="activeName" @tab-click="handleClick">
+                  <el-tab-pane label="职业兴趣" name="first"
+                    >用户管理</el-tab-pane
+                  >
+                  <el-tab-pane label="职业价值观" name="second"
+                    >配置管理</el-tab-pane
+                  >
+                  <el-tab-pane label="职业推荐" name="third">
+                    <img
+                      src="../../assets/图层55.png"
+                      alt=""
+                      class="tuceng55"
+                    />
+                  </el-tab-pane>
+                </el-tabs>
+              </el-tab-pane>
+              <el-tab-pane label="报告管理" name="third">报告管理</el-tab-pane>
+            </el-tabs>
+          </template>
+        </div>
+        <div class="two">
+          <el-tabs type="border-card">
+            <el-tab-pane label="用户管理" label-width="20%"
+              >用户管理</el-tab-pane
+            >
+            <el-tab-pane label="配置管理" label-width="20%"
+              >配置管理</el-tab-pane
+            >
+            <el-tab-pane label="角色管理" label-width="20%"
+              >角色管理</el-tab-pane
+            >
+            <el-tab-pane label="定时任务补偿" label-width="20%"
+              >定时任务补偿</el-tab-pane
+            >
+          </el-tabs>
+          <img src="../../assets/unfinish.png" alt="" class="unfinish" />
+        </div>
+      </el-main>
+    </el-container>
+  </el-container>
+</div>

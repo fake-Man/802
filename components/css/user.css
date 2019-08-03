@@ -1,0 +1,124 @@
+.bigone {
+  width: 1300px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.el-header {
+  height: 137px;
+  padding: 0;
+  width: 100%;
+  background-repeat: repeat-x;
+  background-position: 100%, 100%;
+  position: relative;
+}
+.el-header .maintu {
+  display: block;
+  margin: 0 auto;
+}
+.el-header .xiaotu {
+  width: 1250px;
+  margin: 0 auto;
+  height: 40px;
+  position: absolute;
+  top: 20px;
+  left: 100px;
+}
+.el-header .xiaotu .tubu {
+  margin-left: 10px;
+  float: left;
+}
+.el-header .xiaotu .fudong {
+  float: right;
+  width: 300px;
+  height: 20px;
+}
+.el-header .xiaotu .fudong .yuzhou {
+  float: left;
+}
+.el-header .xiaotu .fudong .yuzhou img {
+  vertical-align: middle;
+}
+.el-header .xiaotu .fudong .yuzhou span {
+  line-height: 20px;
+  margin-left: 5px;
+  color: white;
+  display: inline-block;
+  height: 20px;
+}
+.el-header .xiaotu .fudong .amer {
+  float: right;
+  color: white;
+  line-height: 30px;
+}
+.el-container {
+  height: 100%;
+  z-index: 1;
+  position: relative;
+}
+.el-container .el-aside {
+  overflow: hidden;
+}
+.el-container .el-aside .leftone {
+  height: 405px;
+  width: 217px;
+  background-color: red;
+  border-radius: 0 0 10px 10px;
+  background-color: #fff;
+}
+.el-container .el-aside .touxiang {
+  position: absolute;
+  top: 40px;
+  left: 80px;
+}
+.el-container .el-aside .adm {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 120px;
+  left: 60px;
+}
+.el-container .el-aside .banji {
+  font-size: 14px;
+  color: white;
+  position: absolute;
+  top: 150px;
+  left: 70px;
+}
+.el-main {
+  width: 970px;
+  height: 1000px;
+  z-index: 1;
+}
+.el-main .one {
+  height: 310px;
+  background-color: white;
+  border-radius: 10px;
+  padding-left: 20px;
+}
+.el-main .one .el-tab-pane {
+  font-size: 700;
+}
+.el-main .one .tuceng55 {
+  float: right;
+  margin-right: 50px;
+}
+.el-main .one .tuceng55:hover {
+  box-shadow: 6px 6px 6px #666;
+}
+.el-main .two {
+  height: 596px;
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 20px;
+  overflow: hidden;
+  position: relative;
+}
+.el-main .two .unfinish {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
